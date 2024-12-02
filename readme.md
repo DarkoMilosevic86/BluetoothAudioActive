@@ -9,7 +9,7 @@
 You can install Silenzio from the NVDA add-ons store or from the add-on's source page: [https://github.com/DarkoMilosevic86/Silenzio](https://github.com/DarkoMilosevic86/Silenzio).
 
 # Usage
-Silenzio can be toggled on and off using the NVDA+L key combination.  
+Silenzio can be toggled on and off using the Shift+NVDA+L key combination.  
 Each time you enable or disable Silenzio, the setting will be automatically saved to the Silenzio configuration file. For example, if you leave Silenzio enabled and restart NVDA, it will remain enabled.
 
 # Localization of the Silenzio add-on

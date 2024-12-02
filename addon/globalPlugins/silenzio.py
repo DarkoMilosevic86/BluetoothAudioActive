@@ -79,7 +79,7 @@ class GlobalPlugin(GlobalPlugin):
 
 
     __gestures = {
-        "kb:NVDA+l": "toggleSilenzio"
+        "kb:Shift+NVDA+l": "toggleSilenzio"
     }
     def terminate(self):
         self.stopSound()

@@ -6,7 +6,7 @@
 # Instalacija
 Silenzio možete instalirati iz NVDA prodavnice dodataka, ili sa izvorne stranice dodatka [https://github.com/DarkoMilosevic86/Silenzio](https://github.com/DarkoMilosevic86/Silenzio)
 # Korišćenje
-Silenzio uključujete i isključujete kombinacijom tastera NVDA+L.
+Silenzio uključujete i isključujete kombinacijom tastera Shift+NVDA+L.
 Svaki put kada uključite/issključite Silenzio, to će biti automatski sačuvano u Silenzio konfiguracionu datoteku, tako da ako ste na primer ostavili Silenzio uključen i ponovo pokrenuli NVDA, Silenzio će biti uključen.
 # Lokalizacija Silenzio doddatka
 Silenzio dodatak je dostupan na engleskom i srpskom jeziku.

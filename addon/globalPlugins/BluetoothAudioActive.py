@@ -17,13 +17,13 @@ import addonHandler
 addonHandler.initTranslation()
 
 def get_json_data():
-    json_path = os.path.join(os.path.dirname(__file__), "silenzio.json")
+    json_path = os.path.join(os.path.dirname(__file__), "config.json")
     with open(json_path, "r") as file:
         data = json.load(file)
     return data
 
 def set_json_data(data):
-    json_path = os.path.join(os.path.dirname(__file__), "silenzio.json")
+    json_path = os.path.join(os.path.dirname(__file__), "config.json")
     with open(json_path, "w") as file:
         json.dump(data, file, indent=4)
 
@@ -63,23 +63,23 @@ class GlobalPlugin(GlobalPlugin):
             sleep(0.1)
 
     # Translators : Script description
-    @script(description=_("Toggle Silenzio On/Off."))
-    def script_toggleSilenzio(self, gesture):
+    @script(description=_("Toggle Bluetooth Audio Active On/Off."))
+    def script_toggleBluetoothAudioActive(self, gesture):
         if self.enabled:
             self.stopSound()
             set_configuration(self.enabled)
-            # Translators: Message when Silenzio is disabled
-            ui.message(_("Silenzio disabled"))
+            # Translators: Message when Bluetooth Audio Active is disabled
+            ui.message(_("Bluetooth Audio Active disabled"))
         else:
-            # Translations: Message when Silenzio is enabled
-            ui.message(_("Silenzio enabled"))
+            # Translations: Message when Bluetooth Audio Active is enabled
+            ui.message(_("Bluetooth Audio Active enabled"))
             self.startSound()
             set_configuration(self.enabled)
 
 
 
     __gestures = {
-        "kb:Shift+NVDA+l": "toggleSilenzio"
+        "kb:Shift+NVDA+l": "toggleBluetoothAudioActive"
     }
     def terminate(self):
         self.stopSound()

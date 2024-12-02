@@ -16,28 +16,28 @@ def _(arg):
 # Add-on information variables
 addon_info = {
 	# add-on Name/identifier, internal for NVDA
-	"addon_name": "Silenzio",
+	"addon_name": "BluetoothAudioActive",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on
 	# to be shown on installation and add-on information found in Add-ons Manager.
-	"addon_summary": _("Silenzio addon"),
+	"addon_summary": _("Bluetooth Audio Active"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("Play silent sound to keep the sound card active."),
 	# version
 	"addon_version": "1.0.0",
 	# Author(s)
-	"addon_author": "Darko Milošević <daremc86@gmail.com>",
+	"addon_author": "Darko Milosevic <daremc86@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url": None,
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": "https://github.com/DarkoMilosevic86/Silenzio.git",
+	"addon_sourceURL": "https://github.com/DarkoMilosevic86/BluetoothAudioActive",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
-	"addon_minimumNVDAVersion": "2019.1.1",
+	"addon_minimumNVDAVersion": "2019.3.0",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2024.4.1",
+	"addon_lastTestedNVDAVersion": "2024.4.0",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
